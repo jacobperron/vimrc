@@ -11,4 +11,4 @@ set shiftwidth=2
 " On pressing tab, insert spaces
 set expandtab
 
-
+execute pathogen#infect()
