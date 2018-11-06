@@ -10,5 +10,7 @@ set tabstop=4
 set shiftwidth=2
 " On pressing tab, insert spaces
 set expandtab
+" Line numbers!
+set number
 
 execute pathogen#infect()
