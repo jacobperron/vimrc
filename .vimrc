@@ -13,4 +13,8 @@ set expandtab
 " Line numbers!
 set number
 
+" Custom macros
+let @w = ':%s/\s\+$//g'
+let @t = 'i // TODO(jacobperron): '
+
 execute pathogen#infect()
